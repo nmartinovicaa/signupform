@@ -93,6 +93,8 @@ input {
     border: 1px solid #E5E7EB
 }
 
+
+
 .right-top {
     background-color: whitesmoke;
     justify-content: center;
@@ -125,7 +127,8 @@ button {
     height: 50px;
     border-radius: 12px;
     border: none;
-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);}
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+cursor: pointer;}
 
 label {
 
@@ -134,4 +137,22 @@ label {
     padding-top: 10px
 
 
+}
+
+input:focus {
+    border: 1px solid lightblue;
+    outline: none;
+    box-shadow: 0 0 10px lightblue;
+}
+
+
+.error {
+    border: 1px solid red;
+    outline: none;
+    box-shadow: 0 0 10px red;
+}
+
+.texterror {
+    font-size: 12px;
+    color: red;
 }
